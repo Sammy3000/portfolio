@@ -1,9 +1,13 @@
 import React from 'react'
 import './Navbarstyles.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className='header'>
+        <Link to='/'>
+            <h1>Portfolio</h1>
+        </Link>
 
     </div>
   )
