@@ -17,3 +17,12 @@
     align-items: center;
     padding: 1rem;
 }
+
+@media screen and(max-width:1040px) {
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
