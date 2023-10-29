@@ -2,8 +2,10 @@ import React from 'react'
 import './Navbarstyles.css'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
+import { useState } from 'react'
 
 const Navbar = () => {
+  const [click,setClick] = useState(false);
   return (
     <div className='header'>
         <Link to='/'>
