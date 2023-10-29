@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbarstyles.css'
 import { Link } from 'react-router-dom'
-import {FarBars} from 'react-icons'
+import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -16,8 +16,8 @@ const Navbar = () => {
             <li><Link to='contact'>Contact</Link></li>
         </ul>
         <div className='hambuger'>
-          <FarBars/>
-
+          <FaBars size={20} style={{color:'#fff'}}/>
+/
         </div>
 
     </div>
