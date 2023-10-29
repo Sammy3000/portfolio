@@ -17,6 +17,9 @@
     align-items: center;
     padding: 1rem;
 }
+.hambuger{
+    display: none;
+}
 
 @media screen and (max-width : 1040px) {
     .nav-menu{
