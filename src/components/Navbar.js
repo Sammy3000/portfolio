@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbarstyles.css'
 import { Link } from 'react-router-dom'
-import { FaBars } from 'react-icons/fa'
+import { FaBars,FaTimes } from 'react-icons/fa'
 import { useState } from 'react'
 
 const Navbar = () => {
@@ -20,6 +20,7 @@ const Navbar = () => {
             <li><Link to='contact'>Contact</Link></li>
         </ul>
         <div className='hambuger'>
+          <FaTimes size={20} style={{color:'#fff'}}/>
           <FaBars size={20} style={{color:'#fff'}}/>
 /
         </div>
