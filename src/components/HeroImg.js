@@ -1,10 +1,11 @@
+import React from 'react';
 import './HeroImgStyle.css';
-
-import React from 'react'
 
 const HeroImg = () => {
   return (
-    <div>HeroImg</div>
+    <div className=''>
+
+    </div>
   )
 }
 
