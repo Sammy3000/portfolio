@@ -10,11 +10,11 @@ const HeroImg = () => {
         <img className='intro-image' src={ImageOne} alt='IntroImage'/>
       </div>
       <div className='content'>
-        <p>Hi I'm a Developer</p>
+        <p>Hi I'm a Front-End Developer</p>
         <h1>React Developer</h1>
         <div>
           <Link to='project' className='btn'>PROJECTS</Link>
-          <Link to='contact' className='btn'>CONTACT</Link>
+          <Link to='contact' className='btn btn-light'>CONTACT</Link>
         </div>
         
       </div>
