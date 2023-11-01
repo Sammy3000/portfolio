@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroImgStyle.css';
-import ImageOne from '../assets/code1.jpg';
+import ImageOne from '../assets/code2.jpg';
 import {Link} from 'react-router-dom';
 
 const HeroImg = () => {
