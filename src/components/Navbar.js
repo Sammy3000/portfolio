@@ -5,7 +5,7 @@ import { FaBars,FaTimes } from 'react-icons/fa'
 import { useState } from 'react'
 
 const Navbar = () => {
-  const [click,setClick] = useState(false);
+  const [click ,setClick] = useState(false);
   const handleClick = ()=>setClick(!click)
 
   return (
