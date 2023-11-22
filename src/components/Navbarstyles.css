@@ -6,8 +6,7 @@
 }
 .nav-menu li a{
     font-size: 1.2rem;
-    font-weight: 500;
-    
+    font-weight: 500; 
 }
 .header{
     display: flex;
@@ -20,7 +19,6 @@
     z-index: 10;
 }
 .header-bg{
-
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
 }
