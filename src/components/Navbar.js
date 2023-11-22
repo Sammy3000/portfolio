@@ -16,6 +16,7 @@ const changeColor=()=>{
     setColor(false)
   }
 }
+window.addEventListener('scroll',changeColor)
 
   return (
     <div className='header'>
