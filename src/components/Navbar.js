@@ -9,6 +9,13 @@ const Navbar = () => {
   const handleClick = ()=>setClick(!click);
 
 const [color, setColor]=useState(false);
+const changeColor=()=>{
+  if (window.scrollY>=1){
+    setColor(true);
+  }else{
+    setColor(false)
+  }
+}
 
   return (
     <div className='header'>
