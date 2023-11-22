@@ -49,6 +49,7 @@
     }
     .hambuger{
         display: initial;
+        cursor: pointer;
     }
     
 }
