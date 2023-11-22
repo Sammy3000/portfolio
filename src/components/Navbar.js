@@ -19,7 +19,7 @@ const changeColor=()=>{
 window.addEventListener('scroll',changeColor)
 
   return (
-    <div className='header'>
+    <div className={color?'header header-bg':'header'}>
         <Link to='/'>
             <h1>Portfolio</h1>
         </Link>
