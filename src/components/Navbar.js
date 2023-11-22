@@ -6,7 +6,9 @@ import { useState } from 'react'
 
 const Navbar = () => {
   const [click ,setClick] = useState(false);
-  const handleClick = ()=>setClick(!click)
+  const handleClick = ()=>setClick(!click);
+
+const [color, setColor]=useState(false);
 
   return (
     <div className='header'>
