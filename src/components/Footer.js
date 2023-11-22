@@ -9,7 +9,7 @@ const Footer=()=>{
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location'>
-                        <FaHome/>
+                        <FaHome size={20} style={{color:'#fff',marginRight:'2rem'}}/>
                     </div>
                 </div>
                 <div className='right'></div>
