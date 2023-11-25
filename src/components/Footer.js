@@ -9,8 +9,7 @@ const Footer=()=>{
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location'>
-                        <FaHome size={20} style={{color:'#fff',marginRight:'2rem'}}/>
-                        <p>Nairobi, Kenya</p>
+                         <p><FaHome size={20} style={{color:'#fff',marginRight:'2rem'}}/> Nairobi, Kenya</p>
                     </div>
                     <div className='phone'>
                         <h4><FaPhone size={20} style={{color:'#fff',marginRight:'2rem'}}/>+254 743793661</h4>
