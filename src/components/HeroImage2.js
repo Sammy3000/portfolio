@@ -4,7 +4,7 @@ import React from 'react'
 const HeroImage2=()=>{
     return(
         <div>
-            
+            Hello
         </div>
     )
 }
