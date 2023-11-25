@@ -3,8 +3,8 @@ import React from 'react'
 
 const HeroImage2=()=>{
     return(
-        <div>
-            Hello
+        <div className='heroimg2'>
+            
         </div>
     )
 }
