@@ -25,9 +25,9 @@ window.addEventListener('scroll',changeColor)
         </Link>
         <ul className={click?'nav-menu active':'nav-menu'}>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='project'>Projects</Link></li>
-            <li><Link to='about'>About</Link></li>
-            <li><Link to='contact'>Contact</Link></li>
+            <li><Link to='/project'>Projects</Link></li>
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
         </ul>
         <div onClick={handleClick} className='hambuger'>
           {click?(<FaTimes size={20} style={{color:'#fff'}}/>):(<FaBars size={20} style={{color:'#fff'}}/>)}
