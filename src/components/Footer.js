@@ -19,7 +19,11 @@ const Footer=()=>{
                       </h4>  
                     </div>
                 </div>
-                <div className='right'></div>
+                <div className='right'>
+                    <h4>About Me</h4>
+                    <p>I am a Frontend Web Developer with passion and experience building the best User Interface with smooth interraction for users using React Js.</p>
+                    <div className='social'></div>
+                </div>
             </div>
 
         </div>
