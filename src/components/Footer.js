@@ -23,10 +23,10 @@ const Footer=()=>{
                     <h4>About Me</h4>
                     <p>I am a Frontend Web Developer with passion and experience building the best User Interface with smooth interraction for users using React Js.</p>
                     <div className='social'>
-                        <FaFacebook size={20} style={{color:'#fff',marginRight:'2rem'}}/>
-                        <FaGithub size={20} style={{color:'#fff',marginRight:'2rem'}}/>
-                        <FaLinkedin size={20} style={{color:'#fff',marginRight:'2rem'}}/>
-                        <FaTwitter size={20} style={{color:'#fff',marginRight:'2rem'}}/>
+                        <FaFacebook size={30} style={{color:'#fff',marginRight:'1rem'}}/>
+                        <FaGithub size={30} style={{color:'#fff',marginRight:'1rem'}}/>
+                        <FaLinkedin size={30} style={{color:'#fff',marginRight:'1rem'}}/>
+                        <FaTwitter size={30} style={{color:'#fff',marginRight:'1rem'}}/>
                     </div>
                 </div>
             </div>
