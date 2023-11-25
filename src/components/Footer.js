@@ -1,6 +1,6 @@
 import './FooterStyles.css'
 import React from 'react' 
-import { FaHome, FaMailBulk, FaPhone } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
 
 const Footer=()=>{
 
@@ -22,7 +22,12 @@ const Footer=()=>{
                 <div className='right'>
                     <h4>About Me</h4>
                     <p>I am a Frontend Web Developer with passion and experience building the best User Interface with smooth interraction for users using React Js.</p>
-                    <div className='social'></div>
+                    <div className='social'>
+                        <FaFacebook size={20} style={{color:'#fff',marginRight:'2rem'}}/>
+                        <FaGithub size={20} style={{color:'#fff',marginRight:'2rem'}}/>
+                        <FaLinkedin size={20} style={{color:'#fff',marginRight:'2rem'}}/>
+                        <FaTwitter size={20} style={{color:'#fff',marginRight:'2rem'}}/>
+                    </div>
                 </div>
             </div>
 
