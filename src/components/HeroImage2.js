@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroImage2=()=>{
     return(
-        <div className='heroimg2'>
+        <div className='heroimage2'>
             
         </div>
     )
