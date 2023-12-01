@@ -25,3 +25,10 @@
     left: 0;
     z-index: -1;
 }
+.heroimg h1{
+    font-size: 2.4rem;
+}
+.heroimg p{
+    font-size: 1.4rem;
+    text-align: center;
+}
