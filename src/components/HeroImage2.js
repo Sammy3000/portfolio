@@ -3,7 +3,10 @@ import React from 'react'
 
 const HeroImage2=()=>{
     return(
-        <div className='heroimage2'>
+        <div className='heroimg'>
+            <div className='heading'>
+
+            </div>
             
         </div>
     )
