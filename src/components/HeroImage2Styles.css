@@ -32,3 +32,11 @@
     font-size: 1.4rem;
     text-align: center;
 }
+@media screen and (max-width: 640px) {
+   .heroimg h1{
+    font-size: 2rem;
+}
+.heroimg p{
+    font-size: 1.2rem;
+}
+}
