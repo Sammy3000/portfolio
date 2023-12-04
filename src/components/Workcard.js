@@ -9,7 +9,7 @@ const Workcard = ()=>{
             <h1 className='projects-heading'>Projects.</h1>
             <div className='project-container'>
                 <div className='project-card'>
-                    <img src={worldwide} alt='Project Image'/>
+                    <img src={worldwide} alt='Project pic'/>
                     <h2 className='project-title'>Project Title</h2>
                     <div className='project-details'>
                         I love doing react projects.
