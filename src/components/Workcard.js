@@ -1,6 +1,7 @@
 import './Workcard.css'
 import React from 'react'
 import worldwide from '../assets/mobile.png'
+import { NavLink } from 'react-router-dom'
 
 const Workcard = ()=>{
     return(
@@ -12,6 +13,10 @@ const Workcard = ()=>{
                     <h2 className='project-title'>Project Title</h2>
                     <div className='project-details'>
                         I love doing react projects.
+                    </div>
+                    <div className='project-btns'>
+                        <NavLink className='btn' to='url.com'>View</NavLink>
+                        <NavLink className='btn' to='url.com'>Source</NavLink>
                     </div>
                 </div>
             </div>
