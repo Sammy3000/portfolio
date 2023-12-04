@@ -17,3 +17,12 @@
 .project-card img{
     width: 100%;
 }
+ 
+@media screen and (max-width: 760px){
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}
