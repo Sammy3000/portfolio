@@ -3,17 +3,17 @@ import React from 'react'
 import worldwide from '../assets/mobile.png'
 import { NavLink } from 'react-router-dom'
 
-const Workcard = ()=>{
+const Workcard = ({imgsrc,title,text,view,source})=>{ 
     return(
         <div className='project-card'>
-        <img src={worldwide} alt='Project pic'/>
-        <h2 className='project-title'>Project Title</h2>
+        <img src={imgsrc} alt='Project pic'/>
+        <h2 className='project-title'>{title}</h2>
         <div className='project-details'>
-           <p>I love doing react projects.</p> 
+           <p>{text}</p> 
         </div>
         <div className='project-btns'>
-            <NavLink className='btn' to='url.com'>View</NavLink>
-            <NavLink className='btn' to='url.com'>Source</NavLink>
+            <NavLink className='btn' to={view}>View</NavLink>
+            <NavLink className='btn' to={source}>Source</NavLink>
         </div>
     </div>
     )
