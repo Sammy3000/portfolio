@@ -1,5 +1,7 @@
 import './Workcard.css'
 import React from 'react'
+import Workcard from './Workcard'
+import WorkCardData from './WorkCardData'
 
 const Work = ()=>{
     return(
