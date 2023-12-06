@@ -27,3 +27,5 @@ const ProjectCardData=[
 
     }
 ]
+
+export default ProjectCardData
