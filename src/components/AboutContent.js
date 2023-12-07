@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './AboutContentStyles.css'
 import React from 'react'
 import React1 from '../assets/image4.jpg'
-import React2 from '../assets/image2.jpg'
+import React2 from '../assets/Image3.jpg'
 
 const AboutContent=()=>{
     return(
@@ -20,6 +20,9 @@ const AboutContent=()=>{
                 <div className='img-container'>
                     <div className='img-stack-top'>
                         <img src={React1} className='img' alt='Top pic'/>
+                    </div>
+                    <div className='img-stack-bottom'>
+                        <img src={React2} className='img' alt='Bottom pic'/>
                     </div>
                 </div>
 
