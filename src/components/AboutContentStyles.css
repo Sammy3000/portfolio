@@ -22,8 +22,12 @@
 }
 .right .img-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(12,1fr);
     position: relative;
     text-align: center;
     align-items: center;
+}
+.right img{
+    max-width: 90%;
+    border: 1px solid #333;
 }
