@@ -17,6 +17,11 @@ const AboutContent=()=>{
 
             </div>
             <div className='right'>
+                <div className='img-container'>
+                    <div className='img-stack-top'>
+                        <img src={React1} className='img' alt='Top pic'/>
+                    </div>
+                </div>
 
 
             </div>
