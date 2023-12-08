@@ -1,7 +1,7 @@
 import './FormStyles.css'
 import React from 'react'
 
-const Form=()=>{
+const ContactForm=()=>{
     return(
         <div className='form'>
         
@@ -9,4 +9,4 @@ const Form=()=>{
     )
 }
 
-export default Form
+export default ContactForm
