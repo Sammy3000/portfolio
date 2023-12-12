@@ -1,6 +1,5 @@
 import './Workcard.css'
 import React from 'react'
-import worldwide from '../assets/mobile.png'
 import { NavLink } from 'react-router-dom'
 
 const Workcard = ({imgsrc,title,text,view,source})=>{ 
