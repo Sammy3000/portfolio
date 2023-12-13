@@ -25,6 +25,10 @@ min-height: 8rem;
 resize: none;
 border-radius: 2rem;
 }
+textarea::placeholder{
+    text-align: center;
+    line-height: 5rem;
+}
 .button{
 padding:0.5rem 1.5rem;
 border-radius: 10px;
