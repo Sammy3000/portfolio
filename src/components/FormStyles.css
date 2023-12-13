@@ -8,3 +8,9 @@ label{
     padding: 1rem;
 
 }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
