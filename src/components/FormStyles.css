@@ -23,7 +23,8 @@ textarea{
 min-width: 13.5rem;
 min-height: 8rem;
 resize: none;
-border-radius: 2rem;
+border-radius: 1rem;
+padding: 0.5rem;
 }
 textarea::placeholder{
     text-align: center;
