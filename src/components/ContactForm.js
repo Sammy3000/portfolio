@@ -28,11 +28,11 @@ const ContactForm=()=>{
         <div className='form'>
            <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input className='input' type="text" name="from_name" />
+                <input className='input' type="text" name="from_name" required />
                 <label>Email</label>
-                <input className='input' type="email" name="user_email" />
+                <input className='input' type="email" name="user_email" required/>
                 <label>Message</label>
-                <textarea name="message" />
+                <textarea name="message" required/>
                 <input className='button' type="submit" value="Send" />
            </form>
         </div>
