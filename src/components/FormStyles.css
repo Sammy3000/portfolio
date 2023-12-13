@@ -14,3 +14,14 @@ form{
     justify-content: center;
     align-items: center;
 }
+.input{
+  padding:0.3rem 1.5rem ;
+}
+textarea{
+min-width: 13.5rem;
+min-height: 8rem;
+resize: none;
+}
+.button{
+
+}
