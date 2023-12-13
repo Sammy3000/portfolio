@@ -1,3 +1,10 @@
 label{
     color: #fff;
 }
+.form{
+    min-height: 30vh;
+    width:90%;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
