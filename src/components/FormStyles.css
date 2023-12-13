@@ -15,13 +15,18 @@ form{
     align-items: center;
 }
 .input{
-  padding:0.3rem 1.5rem ;
+  padding:0.3rem 2rem ;
+  border-radius: 2rem;
 }
 textarea{
 min-width: 13.5rem;
 min-height: 8rem;
 resize: none;
+border-radius: 2rem;
 }
 .button{
-
+padding:0.5rem 1.5rem;
+border-radius: 10px;
+border: none;
+margin-top: 1rem;
 }
