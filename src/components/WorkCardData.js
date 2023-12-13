@@ -12,8 +12,8 @@ const ProjectCardData=[
     },
     {
         imgsrc:project2,
-        title:'React Rocket Mission',
-        text:'World wide app showing list of countries fetched from an external API. User can can click on a country to view all information they need. User can also search for a country directly using a search box.',
+        title:'Space Rocket Mission App',
+        text:'Space Mission App is a React project with Redux. Minimal app that fetches data from SpaceX API and display missions and rockets details.',
         view:'https://rocket-mission-hpre.onrender.com/',
         source:'https://github.com/Sammy3000/React-Rocket-Mission.git'
 
