@@ -36,3 +36,13 @@ cursor: pointer;
     color: #fff;
     transition: 1s;
 }
+@media screen and (max-width:480px) {
+    .input{
+        padding:0.3rem 1.5rem ;
+      }
+      textarea{
+      min-width: 11.5rem;
+     
+      }
+    
+}
