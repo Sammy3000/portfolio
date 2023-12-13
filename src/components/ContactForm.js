@@ -11,7 +11,12 @@ const ContactForm=()=>{
       emailjs.sendForm('service_m9bjc7c', 'template_dt5sjvr', form.current, 'DsDqrHWLM7NYG0SOy')
         .then((result) => {
             console.log(result.text);
-            console.log('message sent');
+            console.log('message sent successfully!');
+            return(
+                <div className='success'>
+                    <h5>Message sent successfully!</h5>
+                </div>
+            )
 
         }, (error) => {
             console.log(error.text);
