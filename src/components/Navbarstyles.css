@@ -1,5 +1,6 @@
 .nav-menu{
-    display: flex;   
+    display: flex;  
+    list-style: none; 
 }
 .nav-menu li{
     padding: 0 1rem;
