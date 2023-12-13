@@ -1,6 +1,7 @@
 import './FooterStyles.css'
 import React from 'react' 
 import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Footer=()=>{
 
@@ -23,10 +24,10 @@ const Footer=()=>{
                     <h4>About Me</h4>
                     <p>I am a Frontend Web Developer with passion and experience building the best User Interface with smooth interraction for users using React Js.</p>
                     <div className='social'>
-                        <FaFacebook size={30} style={{color:'#fff',marginRight:'1rem'}}/>
-                        <FaGithub size={30} style={{color:'#fff',marginRight:'1rem'}}/>
-                        <FaLinkedin size={30} style={{color:'#fff',marginRight:'1rem'}}/>
-                        <FaTwitter size={30} style={{color:'#fff',marginRight:'1rem'}}/>
+                       <Link to='https://www.facebook.com/sammy.wish.1/'><FaFacebook size={30} style={{color:'#fff',marginRight:'1rem'}}/></Link> 
+                       <Link to='https://github.com/Sammy3000'><FaGithub size={30} style={{color:'#fff',marginRight:'1rem'}}/></Link>
+                       <Link to='https://www.linkedin.com/in/towettsammy0/'><FaLinkedin size={30} style={{color:'#fff',marginRight:'1rem'}}/></Link>
+                       <Link to='https://twitter.com/TowettSamm59881'><FaTwitter size={30} style={{color:'#fff',marginRight:'1rem'}}/></Link> 
                     </div>
                 </div>
             </div>
