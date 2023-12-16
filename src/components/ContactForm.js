@@ -20,6 +20,11 @@ const ContactForm=()=>{
 
         }, (error) => {
             console.log(error.text);
+            return(
+                <div className='fail'>
+                    <h5>Message failed!</h5>
+                </div>
+            )
         });
         e.target.reset();
     };
