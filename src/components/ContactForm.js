@@ -12,19 +12,26 @@ const ContactForm=()=>{
         .then((result) => {
             console.log(result.text);
             console.log('message sent successfully!');
-            return(
-                <div className='success'>
-                    <h5>Message sent successfully!</h5>
-                </div>
-            )
+            if(result){
+                return(
+                    <div className='success'>
+                        <h5>Message sent successfully!</h5>
+                    </div>
+                )
+
+            }
+          
 
         }, (error) => {
             console.log(error.text);
-            return(
-                <div className='fail'>
-                    <h5>Message failed!</h5>
-                </div>
-            )
+            if(error){
+                return(
+                    <div className='fail'>
+                        <h5>Message failed!</h5>
+                    </div>
+                )
+            }
+            
         });
         e.target.reset();
     };
